@@ -2367,13 +2367,13 @@ manifest:
     - declaration: 'missing_feature (FIXME: library test client sets empty string as the service name)'
       component_version: <2.10.1
   tests/parametric/test_tracer_flare.py::TestTracerFlareV1: '>=2.5.0'  # Modified by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_flare_log_level_order: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_no_tracer_flare_for_other_task_types: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content_with_debug: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_with_debug: missing_feature  # Created by easy win activation script
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_profiling_notracing_flare_content: missing_feature  # Created by easy win activation script
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_flare_log_level_order: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_no_tracer_flare_for_other_task_types: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content_with_debug: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_with_debug: v2.13.0-dev
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_profiling_notracing_flare_content: v2.13.0-dev
   tests/remote_config/test_remote_configuration.py::Test_RemoteConfigurationExtraServices: missing_feature
   tests/remote_config/test_remote_configuration.py::Test_RemoteConfigurationUpdateSequenceASMDD: v2.7.0-dev
   tests/remote_config/test_remote_configuration.py::Test_RemoteConfigurationUpdateSequenceASMDDNoCache: irrelevant (cache is implemented)
