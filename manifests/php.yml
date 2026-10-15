@@ -1874,11 +1874,11 @@ manifest:
   tests/parametric/test_tracer_flare.py::TestTracerFlareV1: '>=1.23.3'  # TODO: a lower version might be supported
   tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_flare_log_level_order: '>=1.16.0'
   tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_telemetry_app_started: '>=1.16.0'
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare: missing_feature
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content: missing_feature
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content_with_debug: missing_feature
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_with_debug: missing_feature
-  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_profiling_notracing_flare_content: missing_feature
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare: v1.27.0
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content: v1.27.0
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_content_with_debug: v1.27.0
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_flare_with_debug: v1.27.0
+  tests/parametric/test_tracer_flare.py::TestTracerFlareV1::test_tracer_profiling_notracing_flare_content: v1.27.0
   tests/remote_config/test_remote_configuration.py::Test_RemoteConfigurationExtraServices: missing_feature
   tests/remote_config/test_remote_configuration.py::Test_RemoteConfigurationUpdateSequenceASMDD:
     - declaration: bug (APPSEC-55129)
